@@ -1,8 +1,7 @@
 # with changes
 """Stream type classes for tap-canvas."""
 
-from pathlib import Path
-from typing import Any, Dict, Optional, Union, List, Iterable
+from typing import Any, Dict, Optional, Iterable
 
 from singer_sdk import typing as th  # JSON Schema typing helpers
 
