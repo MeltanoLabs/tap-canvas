@@ -5,8 +5,6 @@ from urllib import parse
 from pathlib import Path
 from typing import Any, Dict, Optional, Union, List, Iterable
 
-from memoization import cached
-
 from singer_sdk.helpers.jsonpath import extract_jsonpath
 from singer_sdk.streams import RESTStream
 from singer_sdk.authenticators import BearerTokenAuthenticator
